@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T19:03:58.539Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GHpyd5MTKkfO16ILPHJF" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T23:54:47.539Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="CRgy6JSE44I4a4NoqZtH" version="20.5.1" type="github">
   <diagram id="32U8eM802ad70G1T83tJ" name="Page-1">
-    <mxGraphModel dx="1002" dy="2395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="702" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GUVT5bT9iIzlpzMXZ2RR-25" value="Inbound" parent="0" />
+        <mxCell id="GUVT5bT9iIzlpzMXZ2RR-25" value="Inbound" parent="0" visible="0" />
         <mxCell id="GUVT5bT9iIzlpzMXZ2RR-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="GUVT5bT9iIzlpzMXZ2RR-25" source="GUVT5bT9iIzlpzMXZ2RR-29" target="GUVT5bT9iIzlpzMXZ2RR-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -180,7 +180,7 @@
             <mxPoint x="-17" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s1Fuius8Vt1sjJiFdpHV-24" value="Canceled" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GUVT5bT9iIzlpzMXZ2RR-25">
+        <mxCell id="s1Fuius8Vt1sjJiFdpHV-24" value="CanceledDownload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GUVT5bT9iIzlpzMXZ2RR-25">
           <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GUVT5bT9iIzlpzMXZ2RR-26" value="Outbound" parent="0" />
@@ -197,7 +197,7 @@
         </mxCell>
         <mxCell id="wKQMWwQcLif5Yqx3bAVA-19" value="Cancel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wKQMWwQcLif5Yqx3bAVA-18" vertex="1" connectable="0">
           <mxGeometry x="-0.225" relative="1" as="geometry">
-            <mxPoint y="-10" as="offset" />
+            <mxPoint x="-11" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GUVT5bT9iIzlpzMXZ2RR-46" value="QueuedForUpload" style="rounded=1;whiteSpace=wrap;html=1;" parent="GUVT5bT9iIzlpzMXZ2RR-26" vertex="1">
@@ -225,7 +225,7 @@
         </mxCell>
         <mxCell id="wKQMWwQcLif5Yqx3bAVA-21" value="Cancel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wKQMWwQcLif5Yqx3bAVA-20" vertex="1" connectable="0">
           <mxGeometry x="-0.5897" relative="1" as="geometry">
-            <mxPoint x="7" y="-10" as="offset" />
+            <mxPoint x="-4" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GUVT5bT9iIzlpzMXZ2RR-47" value="Uploading" style="rounded=1;whiteSpace=wrap;html=1;" parent="GUVT5bT9iIzlpzMXZ2RR-26" vertex="1">
@@ -248,7 +248,7 @@
         <mxCell id="wKQMWwQcLif5Yqx3bAVA-14" value="Initialized" style="rounded=1;whiteSpace=wrap;html=1;" parent="GUVT5bT9iIzlpzMXZ2RR-26" vertex="1">
           <mxGeometry x="380" y="521" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wKQMWwQcLif5Yqx3bAVA-17" value="Canceled" style="rounded=1;whiteSpace=wrap;html=1;" parent="GUVT5bT9iIzlpzMXZ2RR-26" vertex="1">
+        <mxCell id="wKQMWwQcLif5Yqx3bAVA-17" value="CanceledUpload" style="rounded=1;whiteSpace=wrap;html=1;" parent="GUVT5bT9iIzlpzMXZ2RR-26" vertex="1">
           <mxGeometry x="185" y="621" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s1Fuius8Vt1sjJiFdpHV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GUVT5bT9iIzlpzMXZ2RR-26" source="GUVT5bT9iIzlpzMXZ2RR-46" target="GUVT5bT9iIzlpzMXZ2RR-47">
@@ -450,7 +450,7 @@
             <mxPoint x="-17" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s1Fuius8Vt1sjJiFdpHV-73" value="Canceled" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GUVT5bT9iIzlpzMXZ2RR-26">
+        <mxCell id="s1Fuius8Vt1sjJiFdpHV-73" value="CanceledDownload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GUVT5bT9iIzlpzMXZ2RR-26">
           <mxGeometry x="220" y="990" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
